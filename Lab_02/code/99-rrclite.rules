@@ -1,0 +1,9 @@
+# Hiwonder RRC Lite - CH9102F USB-serial chip (USB ID 1a86:55d4), driver cdc_acm.
+# Installed by Lab 02, Part 2.3:
+#   sudo cp 99-rrclite.rules /etc/udev/rules.d/
+#   sudo udevadm control --reload-rules && sudo udevadm trigger
+#
+# - /dev/rrclite always points at the board, whatever ttyACM number it gets
+# - group dialout, so users in that group can open it without sudo
+# - ModemManager leaves it alone (it would otherwise send AT commands to it)
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="55d4", SYMLINK+="rrclite", GROUP="dialout", MODE="0660", ENV{ID_MM_DEVICE_IGNORE}="1"

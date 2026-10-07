@@ -1,0 +1,16 @@
+title: RPi5 + ROS 2 + RRC Lite
+description: Raspberry Pi 5 · Ubuntu Server 24.04 LTS · ROS 2 Jazzy · Hiwonder RRC Lite controller
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Syntax highlighting
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+# What Jekyll does NOT build into the published site.
+exclude:
+  - README.md
+  - .gitignore
