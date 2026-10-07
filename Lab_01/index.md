@@ -252,6 +252,7 @@ network:
   version: 2
   wifis:
     wlan0:
+      regulatory-domain: "CA"      # your Wi-Fi country (Part 4.5)
       dhcp4: false
       addresses: [192.168.0.11/24]
       routes:
@@ -354,6 +355,31 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now wifi-powersave-off.service
 iw dev wlan0 get power_save       # -> Power save: off
 ```
+
+### 4.5 Check the Wi-Fi country
+
+The Wi-Fi country decides which channels and transmit power the Pi may use. Imager's
+*Wireless LAN country* doesn't always make it onto the Ubuntu image. Check:
+
+```bash
+iw reg get | head -2        # want: "country CA: ..."  (your country)
+                            # "country 00: DFS-UNSET" = not set
+```
+
+When it isn't set, the Pi uses a cautious world default: few 5 GHz channels, lower power,
+slower scans. The console and `dmesg` then fill with lines like
+`brcmfmac: brcmf_set_channel: set chanspec 0xd02e fail, reason -52`, which is the driver
+trying channels the world default forbids. Set it on the kernel command line, so it's
+there from boot, then reboot:
+
+```bash
+sudo sed -i '1 s/$/ cfg80211.ieee80211_regdom=CA/' /boot/firmware/cmdline.txt   # your 2-letter code
+cat /boot/firmware/cmdline.txt        # one line, ending in cfg80211.ieee80211_regdom=CA
+sudo reboot
+```
+
+> `cmdline.txt` must stay **one single line**. Method A's netplan file also sets it
+> (`regulatory-domain:`); doing both is fine.
 
 ---
 
@@ -667,6 +693,7 @@ ros2 run hello_robot hello            # -> Hi from hello_robot.
 | Nothing happens at power-on | Check the supply and the SD card. A red-only LED with no green flicker = the SD card isn't readable: re-flash it |
 | Boot warning about the power supply / USB current limited | Use the 27 W (5 V 5 A) Pi 5 supply, or on the robot the RRC Lite's 5 V PD output with the battery charged. Check `max_current` (*Power*) |
 | `vcgencmd get_throttled` isn't `0x0` | `0x50005` or similar = under-voltage now / since boot: better supply. `0x80008` = soft temperature limit: fit the Active Cooler |
+| `brcmf_set_channel: set chanspec 0x… fail, reason -52` on the console | The Wi-Fi country isn't set: Part 4.5 |
 | The Pi never appears on the router | Wrong Wi-Fi name, password or country in Imager. Check at the console (`networkctl status wlan0`), or re-flash |
 | `Permission denied (publickey)` | Password login is off: Part 3.2 |
 | `sudo: unable to resolve host ...` | `/etc/hosts` still has the old name (Part 2.1) |
@@ -690,7 +717,7 @@ ros2 run hello_robot hello            # -> Hi from hello_robot.
 - [ ] SD card flashed with Ubuntu Server 24.04 LTS (64-bit), hostname, user, SSH and Wi-Fi set in Imager
 - [ ] `hostname` prints `robot01`, and `ssh robot01` works from the laptop with an SSH key
 - [ ] Static IP on wlan0 (`192.168.0.11`), outside the router's DHCP pool; `ping google.com` works on the Pi
-- [ ] `avahi-daemon` installed, Wi-Fi power saving off
+- [ ] `avahi-daemon` installed, Wi-Fi power saving off, `iw reg get` shows your country
 - [ ] System updated, clock synchronised, EEPROM firmware up to date
 - [ ] `vcgencmd get_throttled` → `throttled=0x0`
 - [ ] Swap configured: `sudo bash setup_swap.sh --status`
