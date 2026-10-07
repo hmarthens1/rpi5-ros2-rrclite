@@ -21,6 +21,7 @@ title: Home
 |-----|-------|
 | [Lab 01 — Raspberry Pi 5: Ubuntu Server & ROS 2](Lab_01/) | Flash Ubuntu Server 24.04, join the Wi-Fi router, connect over SSH, static Wi-Fi IP, update, swap, then install `ros-jazzy-ros-base` and the build tools and build a first workspace |
 | [Lab 02 — RRC Lite Firmware](Lab_02/) | The controller's serial protocol, find out which firmware it runs, back it up, and flash new firmware **from Linux** with `stm32flash` over the same USB-C cable; then run Hiwonder's `ros_robot_controller` ROS 2 node |
+| [Lab 03 — Encoder Motors & Speed Control](Lab_03/) | Pins, timers and encoder counts behind the speed control (3960 counts per turn for a JGB37-520), build the firmware on the Pi with GCC, add encoder read-back and a command watchdog, test both motors, and run this lab's own speed controller |
 
 ---
 

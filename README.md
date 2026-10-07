@@ -20,6 +20,12 @@ Lab_02/code/
   99-rrclite.rules         udev rule: /dev/rrclite, dialout group, ModemManager off (runs on the Pi)
   rrclite_probe.py         talks the RRC Lite serial protocol: listen, beep, battery, IMU
   flash_rrclite.sh         stm32flash wrapper: DTR/RTS boot sequence (or BOOT/RST buttons), back up, write, verify
+Lab_03/index.md          encoder motors: pins/timers, counts per turn, GCC build, encoder test, own speed loop
+Lab_03/firmware/           Makefile, linker script and add-ons for Hiwonder's source (not included)
+  encoder_report.c         encoder report, command watchdog, hard stops, M4 encoder fix
+  speed_control.c          this lab's own speed controller: pins, timers, PID
+Lab_03/code/
+  motor_encoder_test.py    tests the motors and encoders against the Lab 03 firmware
 Lab_02/img/
   autodownload.png         the auto-download circuit, cropped from Hiwonder's schematic
 ```
