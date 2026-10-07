@@ -355,12 +355,17 @@ So, in stm32flash's `-i` syntax (`rts`/`dtr` = on, `-rts`/`-dtr` = off, `,` = wa
 `&` = no wait):
 
 ```
-entry:  rts&-dtr , dtr      reset with BOOT0 high, then DTR on releases the reset
-                            while RTS keeps BOOT0 high       -> ROM bootloader
+entry:  rts&-dtr , dtr , rts    reset with BOOT0 high, then DTR on releases the reset
+                                while RTS keeps BOOT0 high, then wait -> ROM bootloader
 exit:   rts&-dtr , -rts     reset again, then RTS off: BOOT0 falls within
                             microseconds (10 kΩ pull-down), NRST rises over
                             ~1 ms (10 kΩ + 100 nF C12)      -> your firmware
 ```
+
+The trailing `, rts` sets nothing new (RTS is already on); it is there for its 100 ms
+wait. stm32flash sends its first byte (`0x7F`) the moment the sequence ends, and NRST
+needs about a millisecond to rise, plus the bootloader's start-up time. Without the wait,
+the bootloader isn't listening yet and stm32flash reports *Failed to init device*.
 
 The exit works because of that difference in speed: releasing RTS releases both pins at
 once, but BOOT0 is already low when NRST comes back up. This is the board's
@@ -386,7 +391,7 @@ bash flash_rrclite.sh info
 Something like:
 
 ```
-==> Entering the bootloader with DTR/RTS:  -i 'rts&-dtr,dtr:rts&-dtr,-rts'
+==> Entering the bootloader with DTR/RTS:  -i 'rts&-dtr,dtr,rts:rts&-dtr,-rts'
     OK  bootloader answered (0x0413 (STM32F40xxx/41xxx))
 
 ==> Chip information
@@ -419,7 +424,7 @@ bash flash_rrclite.sh --manual info
 The script runs ordinary `stm32flash` commands:
 
 ```bash
-SEQ='rts&-dtr,dtr:rts&-dtr,-rts'
+SEQ='rts&-dtr,dtr,rts:rts&-dtr,-rts'
 stm32flash -b 115200 -i "$SEQ" -R /dev/rrclite                    # chip info, then run
 stm32flash -b 115200 -i "$SEQ" -r backup.bin -S 0x08000000:524288 -R /dev/rrclite
 stm32flash -b 115200 -i "$SEQ" -w firmware.hex -v -R /dev/rrclite  # write + verify + run
@@ -441,7 +446,7 @@ bash flash_rrclite.sh backup
 
 This reads the whole 512 KB flash (about a minute). Copy it to your laptop with
 `scp robot01:lab02/rrclite_backup_*.bin .` and keep it. To put it back later:
-`stm32flash -b 115200 -i 'rts&-dtr,dtr:rts&-dtr,-rts' -w rrclite_backup_….bin -v -R /dev/rrclite`.
+`stm32flash -b 115200 -i 'rts&-dtr,dtr,rts:rts&-dtr,-rts' -w rrclite_backup_….bin -v -R /dev/rrclite`.
 A `.bin` has no addresses, and stm32flash writes it from the start of flash.
 
 Now try the exact check from Part 4.2:
@@ -461,7 +466,7 @@ bash flash_rrclite.sh flash RosRobotControllerLite_ros_250814.hex
 
 ```
     OK  RosRobotControllerLite_ros_250814.hex: 51460 bytes at 0x08000000, md5 f32bbdc5c19ac6469b63f659dd2ca781
-==> Entering the bootloader with DTR/RTS:  -i 'rts&-dtr,dtr:rts&-dtr,-rts'
+==> Entering the bootloader with DTR/RTS:  -i 'rts&-dtr,dtr,rts:rts&-dtr,-rts'
     OK  bootloader answered (0x0413 (STM32F40xxx/41xxx))
 
     This ERASES the firmware on the board and writes RosRobotControllerLite_ros_250814.hex.

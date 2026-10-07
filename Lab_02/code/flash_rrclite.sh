@@ -17,9 +17,13 @@
 #   NRST has R9 10k to 3V3 and C12 100 nF: it rises slowly (~1 ms).
 #   BOOT0 has a 10k pull-down: it falls in microseconds.
 #
-#   entry  rts&-dtr , dtr        reset with BOOT0 high, then release the reset
+#   entry  rts&-dtr , dtr , rts  reset with BOOT0 high, then release the reset
 #                                (DTR on turns Q5 off) while RTS keeps BOOT0
-#                                high -> ROM bootloader
+#                                high -> ROM bootloader. The last ",rts" changes
+#                                nothing but waits 100 ms: stm32flash sends 0x7F
+#                                right after the sequence, and without the wait
+#                                the bootloader isn't listening yet (tested on
+#                                the board: no answer without it, 5/5 with it).
 #   exit   rts&-dtr , -rts       reset again, then release RTS: BOOT0 drops at
 #                                once, NRST rises ~1 ms later -> the firmware
 #
@@ -57,7 +61,7 @@ BAUD=115200                      # the ROM bootloader auto-detects the speed;
                                  # 115200 is what Hiwonder's tools use
 FLASH_START=0x08000000           # STM32F407VE: 512 KB of flash from here
 FLASH_SIZE=524288
-SEQ="rts&-dtr,dtr:rts&-dtr,-rts" # entry:exit, from the schematic (see above)
+SEQ="rts&-dtr,dtr,rts:rts&-dtr,-rts" # entry:exit, from the schematic (see above)
 # -----------------------------------------------------------------------------
 
 set -u
