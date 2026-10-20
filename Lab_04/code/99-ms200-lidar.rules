@@ -1,0 +1,10 @@
+# Oradar MS200 lidar - CH340 USB-serial adapter (USB ID 1a86:7523), driver ch341 -> /dev/lidar.
+# Installed by Lab 04, Part 2:
+#   sudo cp 99-ms200-lidar.rules /etc/udev/rules.d/
+#   sudo udevadm control --reload-rules && sudo udevadm trigger --subsystem-match=tty
+#
+# Matched by USB port as well as by ID: other add-ons (the Hiwonder voice module, many
+# cheap adapters) use a CH340 too. Find your port with
+#   udevadm info -q property /dev/ttyUSB0 | grep ID_PATH=
+# and put it in ID_PATH below. The value here is the port the lab's robot uses.
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", ENV{ID_PATH}=="platform-xhci-hcd.1-usb-0:1:1.0", SYMLINK+="lidar", GROUP="dialout", MODE="0660"

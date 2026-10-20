@@ -26,6 +26,13 @@ Lab_03/firmware/           Makefile, linker script and add-ons for Hiwonder's so
   speed_control.c          this lab's own speed controller: pins, timers, PID
 Lab_03/code/
   motor_encoder_test.py    tests the motors and encoders against the Lab 03 firmware
+Lab_04/index.md          lidar + SLAM: the MS200's packets, /dev/lidar, LaserScan driver, TF, Hector SLAM, saving maps
+Lab_04/code/
+  99-ms200-lidar.rules     udev rule: /dev/lidar, matched by USB port too           (runs on the Pi)
+  ms200_node.py            MS200 driver: 47-byte packets -> sensor_msgs/LaserScan   (runs on the Pi)
+  lidar.launch.py          the driver + base_footprint -> laser static TF           (runs on the Pi)
+  hector.launch.py         hector_mapping with this robot's frames, + RViz          (laptop or Pi)
+  hector.rviz              RViz layout: map, scan, SLAM pose, TF
 Lab_02/img/
   autodownload.png         the auto-download circuit, cropped from Hiwonder's schematic
 ```
