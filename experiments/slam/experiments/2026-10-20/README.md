@@ -5,7 +5,7 @@
 | File | What |
 |---|---|
 | `robot04_experiments_2026-10-20.pdf` | report (source: `report/*.tex`) |
-| `robot04_experiments_2026-10-20.pptx` | slides on the `../../robot04_autonomous_mapping.pptx` template (`_slides.pdf`: preview) |
+| `robot04_experiments_2026-10-20_slides.pdf` | the slides; `deck/build_deck.py` builds the `.pptx` (not in the repo) on the `../../robot04_autonomous_mapping.pptx` template, which `../../deck/build_deck.py` builds first |
 | `figures/maps/*.png` | every saved map with metric axes, robot path, goals, start/end |
 | `figures/*.png` | per-run comparisons: overview, goal outcomes, area vs time, battery |
 | `data/robot_logs/` | explorer logs from robot04:~/explore_logs |

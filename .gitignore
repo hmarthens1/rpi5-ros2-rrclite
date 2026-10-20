@@ -21,3 +21,6 @@ Lab_03/firmware/build/
 *.log
 *.out
 .~lock.*#
+
+# PowerPoint decks: built locally by the deck scripts, not kept in the repo
+*.pptx

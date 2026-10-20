@@ -12,9 +12,9 @@ the PC only watches. The robot code is in
 |---|---|
 | `robot04_slam_exploration.pdf` | 6-page paper: system, explorer, first unattended run (47 m² in 12.6 min, 30 goals, back to start) |
 | `paper/` | its LaTeX source, figures, `make_results_tex.py` (numbers from `data/`) |
-| `robot04_autonomous_mapping.pptx` | 21-slide seminar deck with speaker notes; generator `deck/build_deck.py` |
+| `deck/build_deck.py` | builds the 21-slide seminar deck with speaker notes, `robot04_autonomous_mapping.pptx` (not in the repo) |
 | `data/` | first run (2026-10-17): explorer log, saved map, SLAM pose CSV, summaries; `sim_explore.*`: the explorer on a synthetic apartment |
-| `experiments/2026-10-20/` | 18 runs in one day: report (PDF + LaTeX), 14-slide deck, every map, logs, analysis scripts — see its README |
+| `experiments/2026-10-20/` | 18 runs in one day: report (PDF + LaTeX), 14-slide deck (slides PDF), every map, logs, analysis scripts — see its README |
 
 Rebuild:
 
