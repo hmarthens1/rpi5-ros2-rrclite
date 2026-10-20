@@ -1,0 +1,12 @@
+{"t": 1792514373.02, "event": "begin", "state": "idle", "pose": [7.578, 11.547, 1.493], "distance_m": 0.0, "home": [7.578258514404296, 11.54661560058594], "params": {"robot_radius": 0.15, "min_frontier_m": 0.3, "size_weight": 0.5, "replan_period": 3.0, "no_progress_s": 30.0}}
+{"t": 1792514373.02, "event": "start", "state": "exploring", "pose": [7.578, 11.547, 1.493], "distance_m": 0.0}
+{"t": 1792514373.52, "event": "goal_sent", "state": "exploring", "pose": [7.578, 11.547, 1.493], "distance_m": 0.0, "goal": [9.72, 8.32], "frontier": [10.28, 6.86], "size_m": 34.35, "path_m": 4.09, "candidates": 34, "search_ms": 159.4}
+{"t": 1792514373.52, "event": "sample", "state": "exploring", "pose": [7.578, 11.547, 1.493], "distance_m": 0.0, "explored_m2": 153.9, "frontiers": 34, "battery_v": 7.88100004196167}
+{"t": 1792514379.36, "event": "sample", "state": "exploring", "pose": [7.586, 11.555, 1.496], "distance_m": 0.0, "explored_m2": 153.9, "frontiers": 34, "battery_v": 7.659999847412109}
+{"t": 1792514383.07, "event": "goal_failed", "state": "exploring", "pose": [7.88, 11.97, 1.558], "distance_m": 0.53, "goal": [9.72, 8.32], "kind": "frontier", "why": "Nav2 aborted (status 6)"}
+{"t": 1792514383.51, "event": "goal_sent", "state": "exploring", "pose": [7.88, 11.97, 1.558], "distance_m": 0.53, "goal": [10.87, 9.72], "frontier": [11.6, 10.03], "size_m": 3.7, "path_m": 4.9, "candidates": 33, "search_ms": 156.0}
+{"t": 1792514383.89, "event": "goal_failed", "state": "exploring", "pose": [7.88, 11.97, 1.558], "distance_m": 0.53, "goal": [10.87, 9.72], "kind": "frontier", "why": "Nav2 aborted (status 6)"}
+{"t": 1792514384.5, "event": "goal_sent", "state": "exploring", "pose": [7.88, 11.97, 1.558], "distance_m": 0.53, "goal": [10.32, 9.97], "frontier": [10.37, 10.07], "size_m": 0.4, "path_m": 4.45, "candidates": 15, "search_ms": 144.7}
+{"t": 1792514384.61, "event": "goal_failed", "state": "exploring", "pose": [7.88, 11.97, 1.558], "distance_m": 0.53, "goal": [10.32, 9.97], "kind": "frontier", "why": "Nav2 aborted (status 6)"}
+{"t": 1792514385.5, "event": "goal_sent", "state": "exploring", "pose": [7.879, 11.978, 1.482], "distance_m": 0.53, "goal": [8.07, 7.32], "frontier": [8.99, 5.49], "size_m": 16.3, "path_m": 5.19, "candidates": 14, "search_ms": 145.4}
+{"t": 1792514385.5, "event": "sample", "state": "exploring", "pose": [7.879, 11.978, 1.482], "distance_m": 0.53, "explored_m2": 154.2, "frontiers": 14, "battery_v": 7.868000030517578}

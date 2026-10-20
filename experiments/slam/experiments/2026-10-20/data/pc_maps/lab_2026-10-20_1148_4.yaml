@@ -1,0 +1,7 @@
+image: lab_2026-10-20_1148_4.pgm
+mode: trinary
+resolution: 0.0500
+origin: [-6.1000, -5.4000, 0.0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25

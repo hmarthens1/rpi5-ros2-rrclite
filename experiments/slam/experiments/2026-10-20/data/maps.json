@@ -1,0 +1,130 @@
+[
+ {
+  "name": "lab_2026-10-20_1008",
+  "saved": "10:17",
+  "run": "R05",
+  "size_m": [
+   26.8,
+   19.7
+  ],
+  "explored_m2": 136.5,
+  "path_length_m": 61.48,
+  "mapping_time_s": null,
+  "explorer_elapsed_s": null,
+  "free_m2": 123.7,
+  "occupied_m2": 12.8,
+  "known_m2": 136.5
+ },
+ {
+  "name": "lab_2026-10-20_1148",
+  "saved": "12:03",
+  "run": "R11",
+  "size_m": [
+   10.75,
+   10.7
+  ],
+  "explored_m2": 62.8,
+  "path_length_m": 8.2,
+  "mapping_time_s": null,
+  "explorer_elapsed_s": null,
+  "free_m2": 58.7,
+  "occupied_m2": 4.1,
+  "known_m2": 62.8
+ },
+ {
+  "name": "lab_2026-10-20_1148_2",
+  "saved": "12:10",
+  "run": "R12",
+  "size_m": [
+   10.15,
+   10.6
+  ],
+  "explored_m2": 26.2,
+  "path_length_m": 1.66,
+  "mapping_time_s": null,
+  "explorer_elapsed_s": null,
+  "free_m2": 24.7,
+  "occupied_m2": 1.5,
+  "known_m2": 26.2
+ },
+ {
+  "name": "lab_2026-10-20_1148_3",
+  "saved": "12:13",
+  "run": "R13",
+  "size_m": [
+   10.65,
+   12.3
+  ],
+  "explored_m2": 63.8,
+  "path_length_m": 9.87,
+  "mapping_time_s": null,
+  "explorer_elapsed_s": null,
+  "free_m2": 59.0,
+  "occupied_m2": 4.8,
+  "known_m2": 63.8
+ },
+ {
+  "name": "lab_2026-10-20_1148_4",
+  "saved": "12:20",
+  "run": "R14",
+  "size_m": [
+   9.8,
+   10.9
+  ],
+  "explored_m2": 47.8,
+  "path_length_m": 3.47,
+  "mapping_time_s": null,
+  "explorer_elapsed_s": null,
+  "free_m2": 44.4,
+  "occupied_m2": 3.4,
+  "known_m2": 47.8
+ },
+ {
+  "name": "lab_2026-10-20_1237_success",
+  "saved": "12:41",
+  "run": "R16",
+  "size_m": [
+   10.55,
+   11.2
+  ],
+  "explored_m2": 38.3,
+  "path_length_m": 7.67,
+  "mapping_time_s": null,
+  "explorer_elapsed_s": null,
+  "free_m2": 36.0,
+  "occupied_m2": 2.4,
+  "known_m2": 38.3
+ },
+ {
+  "name": "lab_2026-10-20_1249_success2",
+  "saved": "12:53",
+  "run": "R17",
+  "size_m": [
+   10.6,
+   10.35
+  ],
+  "explored_m2": 36.4,
+  "path_length_m": 12.75,
+  "mapping_time_s": 211.3,
+  "explorer_elapsed_s": 199.2,
+  "free_m2": 33.9,
+  "occupied_m2": 2.6,
+  "known_m2": 36.4
+ },
+ {
+  "name": "lab_2026-10-20_1249_success3",
+  "saved": "12:56",
+  "run": "R18",
+  "size_m": [
+   10.6,
+   10.55
+  ],
+  "explored_m2": 35.3,
+  "path_length_m": 10.33,
+  "mapping_time_s": 129.5,
+  "explorer_elapsed_s": 123.0,
+  "free_m2": 32.7,
+  "occupied_m2": 2.6,
+  "known_m2": 35.3
+ }
+]

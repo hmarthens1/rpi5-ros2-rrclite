@@ -35,6 +35,8 @@ Lab_04/code/
   hector.rviz              RViz layout: map, scan, SLAM pose, TF
 Lab_02/img/
   autodownload.png         the auto-download circuit, cropped from Hiwonder's schematic
+experiments/slam/         robot04 autonomous mapping (Hector SLAM + Nav2 + frontiers): paper, decks, data,
+                           the 2026-10-20 experiment day. Authors: Marthens HAKIZIMANA, Amir TAGHAVIPOUR
 ```
 
 ## Publishing

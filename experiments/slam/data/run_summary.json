@@ -1,0 +1,39 @@
+{
+  "duration_min": 12.55,
+  "explored_m2_final": 47.29,
+  "map_free_m2": 37.5,
+  "map_occupied_m2": 9.8,
+  "map_size_m": [
+    10.95,
+    13.15
+  ],
+  "distance_logged_m": 74.8,
+  "path_length_m": 74.0,
+  "goals_sent": 30,
+  "frontiers_reached": 24,
+  "frontiers_seen_on_the_way": 5,
+  "goals_failed": 1,
+  "failures": [
+    "timeout after 156 s"
+  ],
+  "operator_pauses": 0,
+  "returned_home": true,
+  "end_reason": "back at the start",
+  "search_ms_mean": 49.8,
+  "search_ms_max": 58.5,
+  "candidates_mean": 11.1,
+  "battery_v": [
+    7.4029998779296875,
+    7.078000068664551
+  ],
+  "area_rate_m2_per_min": 3.77,
+  "extra": {
+    "abstract_end": "and drove back to within 0.2\\,m of its start without any operator intervention",
+    "setup": "The robot was placed in a carpeted hallway of a furnished apartment at night with the room lights on, the exploration service was started from the PC and Explore was pressed once; nobody touched the robot or the keyboard afterwards. Doors stood as they were left; there are no stairs on this floor.",
+    "discussion": "Mapped area grows fastest in the first two minutes, when every goal opens a new room to the 360\\textdegree{} lidar, and creeps up afterwards as the robot visits the corners and gaps behind furniture one at a time; the number of open frontiers peaks at about four and a half minutes and falls to zero after 11.6 minutes, when the robot returned to its start. The single failure was a goal on the far side of a wall that the planner could reach only through unknown space; the controller made progress but not enough, and the goal was dropped after its timeout of 156\\,s. The mean speed over the run, 0.098\\,m/s, is close to the controller's cruise speed of 0.10\\,m/s, so the time was spent driving rather than waiting or recovering. The long white streak at the top of the map is free space seen along a few rays through a narrow gap (most likely a door left ajar); the frontier at its end is a ray or two wide, below the 0.30\\,m minimum frontier length, so the explorer ignored it, which is also why the room behind it is missing from the map."
+  },
+  "end_note": "No frontier left after 11.6 min: drove back, stopped 0.2 m from the start, saved the map. Zero operator interventions.",
+  "takeaway": "Pressed Explore once; the robot chose all 30 goals itself and came home.",
+  "notes_map": "~60 s. One unattended run in an apartment: 47 square metres in twelve and a half minutes, 74 metres driven, 30 goals chosen by the robot, one failed, behind a wall. When nothing was left it drove home and saved the map. The streak at the top is free space seen through a narrow gap; too narrow to count as a frontier.",
+  "notes_progress": "~45 s. Area grows fastest in the first two minutes, when each goal opens a new room, then creeps up as corners are visited one by one. Frontiers peak around four minutes and reach zero at eleven and a half. The Pi used about one and a half cores."
+}

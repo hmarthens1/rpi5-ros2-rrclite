@@ -1,0 +1,28 @@
+{
+  "name": "lab_2026-10-20_1237_success",
+  "robot": "robot04",
+  "saved": "2026-10-20 12:41:49",
+  "slam": "hector_mapping",
+  "resolution_m": 0.05000000074505806,
+  "size_px": [
+    211,
+    224
+  ],
+  "size_m": [
+    10.55,
+    11.2
+  ],
+  "explored_m2": 38.3,
+  "path_length_m": 7.67,
+  "final_pose": [
+    0.168,
+    0.056,
+    -2.708
+  ],
+  "files": [
+    "lab_2026-10-20_1237_success.pgm",
+    "lab_2026-10-20_1237_success.yaml",
+    "lab_2026-10-20_1237_success.png",
+    "lab_2026-10-20_1237_success.json"
+  ]
+}

@@ -1,0 +1,60 @@
+{"t": 1792525784.6, "event": "begin", "state": "idle", "pose": [0.002, 0.002, 0.0], "distance_m": 0.0, "home": [0.001163482666015403, -0.001384735107422097], "params": {"robot_radius": 0.15, "min_frontier_m": 0.3, "size_weight": 0.5, "replan_period": 3.0, "no_progress_s": 30.0}}
+{"t": 1792525784.6, "event": "start", "state": "exploring", "pose": [0.002, 0.002, 0.0], "distance_m": 0.0}
+{"t": 1792525785.21, "event": "goal_sent", "state": "exploring", "pose": [0.002, -0.0, -0.005], "distance_m": 0.0, "goal": [-0.58, -0.88], "frontier": [-0.58, -0.87], "size_m": 1.25, "path_m": 1.1, "candidates": 5, "search_ms": 20.1}
+{"t": 1792525785.22, "event": "sample", "state": "exploring", "pose": [0.002, -0.0, -0.005], "distance_m": 0.0, "explored_m2": 7.33, "frontiers": 5, "battery_v": 7.3420000076293945}
+{"t": 1792525791.2, "event": "sample", "state": "exploring", "pose": [-0.221, -0.204, -2.431], "distance_m": 0.36, "explored_m2": 10.65, "frontiers": 7, "battery_v": 7.327000141143799}
+{"t": 1792525795.91, "event": "goal_reached", "state": "exploring", "pose": [-0.616, -0.645, -1.832], "distance_m": 0.97, "goal": [-0.58, -0.88], "kind": "frontier", "seconds": 10.7}
+{"t": 1792525796.21, "event": "goal_sent", "state": "exploring", "pose": [-0.631, -0.7, -1.81], "distance_m": 1.02, "goal": [-1.53, -1.48], "frontier": [-3.7, -2.31], "size_m": 31.25, "path_m": 1.33, "candidates": 5, "search_ms": 16.1}
+{"t": 1792525797.19, "event": "sample", "state": "exploring", "pose": [-0.631, -0.7, -1.813], "distance_m": 1.02, "explored_m2": 11.64, "frontiers": 5, "battery_v": 7.316999912261963}
+{"t": 1792525802.21, "event": "sample", "state": "exploring", "pose": [-0.826, -0.767, -2.759], "distance_m": 1.26, "explored_m2": 11.7, "frontiers": 5, "battery_v": 7.309999942779541}
+{"t": 1792525807.2, "event": "sample", "state": "exploring", "pose": [-0.865, -0.788, -2.64], "distance_m": 1.3, "explored_m2": 12.4, "frontiers": 6, "battery_v": 7.308000087738037}
+{"t": 1792525812.21, "event": "sample", "state": "exploring", "pose": [-0.866, -0.797, -2.222], "distance_m": 1.3, "explored_m2": 14.51, "frontiers": 9, "battery_v": 7.310999870300293}
+{"t": 1792525817.2, "event": "sample", "state": "exploring", "pose": [-0.829, -0.795, -2.844], "distance_m": 1.33, "explored_m2": 14.78, "frontiers": 10, "battery_v": 7.313000202178955}
+{"t": 1792525823.22, "event": "sample", "state": "exploring", "pose": [-1.157, -0.824, -2.744], "distance_m": 1.91, "explored_m2": 15.06, "frontiers": 9, "battery_v": 7.304999828338623}
+{"t": 1792525828.18, "event": "goal_reached", "state": "exploring", "pose": [-1.487, -1.22, -1.979], "distance_m": 2.43, "goal": [-1.53, -1.48], "kind": "frontier", "seconds": 32.0}
+{"t": 1792525828.21, "event": "goal_sent", "state": "exploring", "pose": [-1.512, -1.281, -1.946], "distance_m": 2.5, "goal": [-1.53, -1.88], "frontier": [-3.27, -3.29], "size_m": 5.1, "path_m": 0.6, "candidates": 7, "search_ms": 20.8}
+{"t": 1792525829.19, "event": "sample", "state": "exploring", "pose": [-1.519, -1.292, -1.929], "distance_m": 2.5, "explored_m2": 17.54, "frontiers": 7, "battery_v": 7.293000221252441}
+{"t": 1792525834.22, "event": "sample", "state": "exploring", "pose": [-1.528, -1.304, -1.168], "distance_m": 2.5, "explored_m2": 17.55, "frontiers": 7, "battery_v": 7.300000190734863}
+{"t": 1792525839.2, "event": "sample", "state": "exploring", "pose": [-1.524, -1.303, -1.157], "distance_m": 2.5, "explored_m2": 17.56, "frontiers": 7, "battery_v": 7.297999858856201}
+{"t": 1792525844.18, "event": "goal_reached", "state": "exploring", "pose": [-1.417, -1.651, -1.523], "distance_m": 2.88, "goal": [-1.53, -1.88], "kind": "frontier", "seconds": 16.0}
+{"t": 1792525844.22, "event": "goal_sent", "state": "exploring", "pose": [-1.426, -1.703, -1.659], "distance_m": 2.93, "goal": [-1.48, 0.37], "frontier": [-1.58, 1.62], "size_m": 2.1, "path_m": 2.29, "candidates": 7, "search_ms": 23.4}
+{"t": 1792525845.19, "event": "sample", "state": "exploring", "pose": [-1.422, -1.708, -1.671], "distance_m": 2.93, "explored_m2": 20.5, "frontiers": 7, "battery_v": 7.289000034332275}
+{"t": 1792525850.2, "event": "sample", "state": "exploring", "pose": [-1.427, -1.724, 2.216], "distance_m": 2.93, "explored_m2": 21.39, "frontiers": 7, "battery_v": 7.288000106811523}
+{"t": 1792525856.2, "event": "sample", "state": "exploring", "pose": [-1.395, -1.115, 1.279], "distance_m": 3.6, "explored_m2": 22.7, "frontiers": 8, "battery_v": 7.275000095367432}
+{"t": 1792525861.22, "event": "sample", "state": "exploring", "pose": [-1.119, -0.477, 1.414], "distance_m": 4.3, "explored_m2": 22.7, "frontiers": 8, "battery_v": 7.2779998779296875}
+{"t": 1792525867.2, "event": "sample", "state": "exploring", "pose": [-1.093, -0.358, 2.5], "distance_m": 4.41, "explored_m2": 25.28, "frontiers": 12, "battery_v": 7.275000095367432}
+{"t": 1792525872.22, "event": "sample", "state": "exploring", "pose": [-1.098, -0.356, 2.685], "distance_m": 4.41, "explored_m2": 26.57, "frontiers": 10, "battery_v": 7.2870001792907715}
+{"t": 1792525877.2, "event": "sample", "state": "exploring", "pose": [-1.267, -0.013, 1.951], "distance_m": 4.8, "explored_m2": 26.67, "frontiers": 9, "battery_v": 7.275000095367432}
+{"t": 1792525878.64, "event": "goal_reached", "state": "exploring", "pose": [-1.312, 0.112, 2.005], "distance_m": 4.93, "goal": [-1.48, 0.37], "kind": "frontier", "seconds": 34.4}
+{"t": 1792525879.22, "event": "goal_sent", "state": "exploring", "pose": [-1.336, 0.162, 2.083], "distance_m": 4.99, "goal": [-0.33, 0.62], "frontier": [0.25, 2.4], "size_m": 3.2, "path_m": 1.3, "candidates": 7, "search_ms": 27.9}
+{"t": 1792525883.22, "event": "sample", "state": "exploring", "pose": [-1.323, 0.17, 0.219], "distance_m": 4.99, "explored_m2": 28.37, "frontiers": 7, "battery_v": 7.270999908447266}
+{"t": 1792525888.2, "event": "sample", "state": "exploring", "pose": [-0.588, 0.198, 0.167], "distance_m": 5.74, "explored_m2": 28.51, "frontiers": 7, "battery_v": 7.267000198364258}
+{"t": 1792525890.78, "event": "goal_reached", "state": "exploring", "pose": [-0.437, 0.283, 0.711], "distance_m": 5.91, "goal": [-0.33, 0.62], "kind": "frontier", "seconds": 11.6}
+{"t": 1792525891.22, "event": "goal_sent", "state": "exploring", "pose": [-0.4, 0.308, 0.787], "distance_m": 5.96, "goal": [0.22, 0.57], "frontier": [0.98, 2.23], "size_m": 4.95, "path_m": 0.75, "candidates": 4, "search_ms": 22.8}
+{"t": 1792525893.2, "event": "sample", "state": "exploring", "pose": [-0.393, 0.319, 0.368], "distance_m": 5.96, "explored_m2": 28.51, "frontiers": 4, "battery_v": 7.264999866485596}
+{"t": 1792525899.19, "event": "sample", "state": "exploring", "pose": [0.115, 0.314, 0.629], "distance_m": 6.53, "explored_m2": 29.35, "frontiers": 5, "battery_v": 7.261000156402588}
+{"t": 1792525899.65, "event": "goal_reached", "state": "exploring", "pose": [0.115, 0.314, 0.629], "distance_m": 6.53, "goal": [0.22, 0.57], "kind": "frontier", "seconds": 8.4}
+{"t": 1792525900.22, "event": "goal_sent", "state": "exploring", "pose": [0.127, 0.321, 0.617], "distance_m": 6.53, "goal": [-0.48, -1.93], "frontier": [1.98, -3.31], "size_m": 30.65, "path_m": 2.5, "candidates": 2, "search_ms": 26.7}
+{"t": 1792525904.2, "event": "sample", "state": "exploring", "pose": [0.127, 0.339, -1.496], "distance_m": 6.53, "explored_m2": 31.3, "frontiers": 3, "battery_v": 7.264999866485596}
+{"t": 1792525910.22, "event": "sample", "state": "exploring", "pose": [-0.456, -0.406, -2.456], "distance_m": 7.48, "explored_m2": 31.33, "frontiers": 3, "battery_v": 7.255000114440918}
+{"t": 1792525916.2, "event": "sample", "state": "exploring", "pose": [-0.698, -0.924, -1.631], "distance_m": 8.08, "explored_m2": 31.68, "frontiers": 3, "battery_v": 7.251999855041504}
+{"t": 1792525921.2, "event": "sample", "state": "exploring", "pose": [-0.694, -0.913, -0.489], "distance_m": 8.08, "explored_m2": 31.95, "frontiers": 3, "battery_v": 7.258999824523926}
+{"t": 1792525927.19, "event": "sample", "state": "exploring", "pose": [-0.687, -0.917, -1.149], "distance_m": 8.08, "explored_m2": 31.95, "frontiers": 3, "battery_v": 7.258999824523926}
+{"t": 1792525933.22, "event": "sample", "state": "exploring", "pose": [-0.895, -0.43, -1.144], "distance_m": 8.61, "explored_m2": 31.95, "frontiers": 3, "battery_v": 7.257999897003174}
+{"t": 1792525938.2, "event": "sample", "state": "exploring", "pose": [-0.774, -0.819, -1.301], "distance_m": 9.02, "explored_m2": 32.38, "frontiers": 3, "battery_v": 7.255000114440918}
+{"t": 1792525944.2, "event": "sample", "state": "exploring", "pose": [-0.778, -0.831, -0.572], "distance_m": 9.02, "explored_m2": 32.38, "frontiers": 3, "battery_v": 7.247000217437744}
+{"t": 1792525950.2, "event": "sample", "state": "exploring", "pose": [-0.615, -1.072, -1.196], "distance_m": 9.32, "explored_m2": 32.44, "frontiers": 3, "battery_v": 7.245999813079834}
+{"t": 1792525955.5, "event": "goal_reached", "state": "exploring", "pose": [-0.631, -1.698, -1.669], "distance_m": 9.96, "goal": [-0.48, -1.93], "kind": "frontier", "seconds": 55.3}
+{"t": 1792525956.22, "event": "goal_sent", "state": "exploring", "pose": [-0.634, -1.734, -1.633], "distance_m": 10.0, "goal": [-1.53, -0.98], "frontier": [-3.9, -2.19], "size_m": 16.55, "path_m": 1.27, "candidates": 1, "search_ms": 25.2}
+{"t": 1792525956.22, "event": "sample", "state": "exploring", "pose": [-0.634, -1.734, -1.633], "distance_m": 10.0, "explored_m2": 34.24, "frontiers": 1, "battery_v": 7.241000175476074}
+{"t": 1792525962.19, "event": "sample", "state": "exploring", "pose": [-1.113, -1.71, 2.834], "distance_m": 10.49, "explored_m2": 35.9, "frontiers": 1, "battery_v": 7.236999988555908}
+{"t": 1792525967.22, "event": "sample", "state": "exploring", "pose": [-1.483, -1.227, 1.734], "distance_m": 11.12, "explored_m2": 36.44, "frontiers": 1, "battery_v": 7.234000205993652}
+{"t": 1792525967.88, "event": "goal_reached", "state": "exploring", "pose": [-1.483, -1.227, 1.734], "distance_m": 11.12, "goal": [-1.53, -0.98], "kind": "frontier", "seconds": 11.7}
+{"t": 1792525970.21, "event": "no_frontiers", "state": "exploring", "pose": [-1.495, -1.162, 1.692], "distance_m": 11.19}
+{"t": 1792525970.21, "event": "return_home", "state": "returning", "pose": [-1.495, -1.162, 1.692], "distance_m": 11.19}
+{"t": 1792525973.2, "event": "sample", "state": "returning", "pose": [-1.43, -1.071, 0.847], "distance_m": 11.3, "explored_m2": 36.44, "frontiers": 0, "battery_v": 7.242000102996826}
+{"t": 1792525979.2, "event": "sample", "state": "returning", "pose": [-0.709, -0.546, 0.489], "distance_m": 12.2, "explored_m2": 36.44, "frontiers": 0, "battery_v": 7.223999977111816}
+{"t": 1792525983.83, "event": "goal_reached", "state": "returning", "pose": [-0.138, -0.207, 0.716], "distance_m": 12.86, "goal": [0.0, -0.0], "kind": "home", "seconds": 13.6}
+{"t": 1792525983.83, "event": "saved", "state": "done", "pose": [-0.138, -0.207, 0.716], "distance_m": 12.86, "path": "/home/ubuntu/maps/explore_2026-10-20_12-53-03"}
+{"t": 1792525983.83, "event": "done", "state": "done", "pose": [-0.138, -0.207, 0.716], "distance_m": 12.86, "why": "back at the start", "stats": {"goals_sent": 9, "goals_reached": 9, "goals_failed": 0, "goals_explored": 0}, "explored_m2": 36.44, "minutes": 3.32}
+{"t": 1792525987.53, "event": "stop", "state": "idle", "pose": [-0.084, -0.162, 0.764], "distance_m": 12.86}

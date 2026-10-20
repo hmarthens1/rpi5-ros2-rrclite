@@ -1,0 +1,110 @@
+[
+ {
+  "session": "A",
+  "label": "Large open area",
+  "time": "09:32-09:41",
+  "runs": [
+   "R01",
+   "R02",
+   "R03",
+   "R04"
+  ],
+  "n_runs": 4,
+  "n_completed": 0,
+  "goals_sent": 79,
+  "goals_failed": 65,
+  "fail_rate": 0.82,
+  "distance_m": 26.5,
+  "drive_min": 6.0,
+  "completed_mean_min": null,
+  "completed_mean_m": null,
+  "completed_mean_speed": null,
+  "return_s_mean": null
+ },
+ {
+  "session": "B",
+  "label": "Long run, large area",
+  "time": "10:09-10:17",
+  "runs": [
+   "R05"
+  ],
+  "n_runs": 1,
+  "n_completed": 0,
+  "goals_sent": 16,
+  "goals_failed": 2,
+  "fail_rate": 0.12,
+  "distance_m": 58.6,
+  "drive_min": 7.7,
+  "completed_mean_min": null,
+  "completed_mean_m": null,
+  "completed_mean_speed": null,
+  "return_s_mean": null
+ },
+ {
+  "session": "C",
+  "label": "Low battery",
+  "time": "10:53-10:55",
+  "runs": [
+   "R06",
+   "R07",
+   "R08",
+   "R09"
+  ],
+  "n_runs": 4,
+  "n_completed": 0,
+  "goals_sent": 5,
+  "goals_failed": 0,
+  "fail_rate": 0.0,
+  "distance_m": 0.0,
+  "drive_min": 0.3,
+  "completed_mean_min": null,
+  "completed_mean_m": null,
+  "completed_mean_speed": null,
+  "return_s_mean": null
+ },
+ {
+  "session": "D",
+  "label": "Bounded test area",
+  "time": "11:49-12:21",
+  "runs": [
+   "R10",
+   "R11",
+   "R12",
+   "R13",
+   "R14"
+  ],
+  "n_runs": 5,
+  "n_completed": 4,
+  "goals_sent": 34,
+  "goals_failed": 10,
+  "fail_rate": 0.29,
+  "distance_m": 29.3,
+  "drive_min": 10.5,
+  "completed_mean_min": 1.72,
+  "completed_mean_m": 6.9,
+  "completed_mean_speed": 0.083,
+  "return_s_mean": 12.4
+ },
+ {
+  "session": "E",
+  "label": "Bounded test area, repeat",
+  "time": "12:38-12:57",
+  "runs": [
+   "R15",
+   "R16",
+   "R17",
+   "R18"
+  ],
+  "n_runs": 4,
+  "n_completed": 3,
+  "goals_sent": 31,
+  "goals_failed": 0,
+  "fail_rate": 0.0,
+  "distance_m": 38.7,
+  "drive_min": 7.9,
+  "completed_mean_min": 2.26,
+  "completed_mean_m": 10.4,
+  "completed_mean_speed": 0.081,
+  "return_s_mean": 8.5
+ }
+]

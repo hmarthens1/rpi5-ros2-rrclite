@@ -1,0 +1,19 @@
+id,session,start,duration_s,explore_s,return_s,distance_m,explored_m2,goals_sent,goals_reached,goals_explored,goals_failed,outcome,end_reason,search_ms_mean,log
+R01,A,09:32,180.6,177.4,3.2,17.15,101.8,41,1,12,29,no return,could not drive back to the start (Nav2 aborted (status 6)),81.9,2026-10-20_09-32-26.jsonl
+R02,A,09:35,144.0,141.8,2.2,4.76,133.1,33,0,1,33,no return,could not drive back to the start (Nav2 aborted (status 6)),129.8,2026-10-20_09-35-56.jsonl
+R03,A,09:38,23.0,23.0,,4.05,153.9,1,0,0,0,operator stop,stop,136.6,2026-10-20_09-38-52.jsonl
+R04,A,09:39,12.5,12.5,,0.53,154.2,4,0,0,3,log ends,sample,151.4,2026-10-20_09-39-33.jsonl
+R05,B,10:09,464.1,464.1,,58.62,136.5,16,9,4,2,operator stop,stop,122.5,2026-10-20_10-09-05.jsonl
+R06,C,10:53,4.4,3.7,0.7,0.03,24.5,1,0,0,0,battery low,back at the start,32.6,2026-10-20_10-53-06.jsonl
+R07,C,10:53,4.0,3.5,0.5,0.0,27.6,1,0,0,0,battery low,back at the start,61.1,2026-10-20_10-53-22.jsonl
+R08,C,10:53,3.5,3.0,0.4,0.0,30.5,1,0,0,0,battery low,back at the start,46.1,2026-10-20_10-53-43.jsonl
+R09,C,10:54,3.7,3.4,0.2,0.0,6.3,2,1,0,0,battery low,back at the start,17.2,2026-10-20_10-54-21.jsonl
+R10,D,11:49,64.6,55.1,9.5,5.66,72.2,7,0,6,1,completed,back at the start,69.1,2026-10-20_11-49-40.jsonl
+R11,D,11:59,221.2,213.8,7.3,8.46,62.8,12,3,5,4,completed,back at the start,50.4,2026-10-20_11-59-24.jsonl
+R12,D,12:06,219.9,219.9,,1.66,26.2,7,1,0,5,operator stop,stop,45.2,2026-10-20_12-06-04.jsonl
+R13,D,12:11,89.2,72.4,16.8,9.93,63.8,5,4,1,0,completed,back at the start,58.8,2026-10-20_12-11-14.jsonl
+R14,D,12:19,37.2,21.2,16.0,3.56,47.9,3,1,2,0,completed,back at the start,39.1,2026-10-20_12-19-40.jsonl
+R15,E,12:38,68.8,68.8,,7.38,27.9,7,3,3,0,operator stop,stop,19.6,2026-10-20_12-38-15.jsonl
+R16,E,12:39,84.4,79.0,5.4,7.75,38.3,8,5,3,0,completed,back at the start,20.8,2026-10-20_12-39-55.jsonl
+R17,E,12:49,199.2,185.6,13.6,12.86,36.4,8,8,0,0,completed,back at the start,22.9,2026-10-20_12-49-44.jsonl
+R18,E,12:54,123.0,116.7,6.4,10.67,35.4,8,7,1,0,completed,back at the start,20.6,2026-10-20_12-54-27.jsonl

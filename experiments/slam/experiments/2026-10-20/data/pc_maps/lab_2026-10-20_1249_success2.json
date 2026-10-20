@@ -1,0 +1,32 @@
+{
+  "name": "lab_2026-10-20_1249_success2",
+  "robot": "robot04",
+  "saved": "2026-10-20 12:53:14",
+  "slam": "hector_mapping",
+  "resolution_m": 0.05000000074505806,
+  "size_px": [
+    212,
+    207
+  ],
+  "size_m": [
+    10.6,
+    10.35
+  ],
+  "explored_m2": 36.4,
+  "path_length_m": 12.75,
+  "final_pose": [
+    -0.085,
+    -0.161,
+    0.765
+  ],
+  "files": [
+    "lab_2026-10-20_1249_success2.pgm",
+    "lab_2026-10-20_1249_success2.yaml",
+    "lab_2026-10-20_1249_success2.png",
+    "lab_2026-10-20_1249_success2.json"
+  ],
+  "mapping_time_s": 211.3,
+  "mapping_time": "3:31",
+  "mapping_started": "2026-10-20 12:49:39",
+  "explorer_elapsed_s": 199.2
+}

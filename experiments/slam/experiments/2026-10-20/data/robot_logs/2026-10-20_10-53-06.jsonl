@@ -1,0 +1,9 @@
+{"t": 1792518786.77, "event": "begin", "state": "idle", "pose": [0.002, -0.005, -0.0], "distance_m": 0.0, "home": [0.0016536712646484375, -0.005290985107421875], "params": {"robot_radius": 0.15, "min_frontier_m": 0.3, "size_weight": 0.5, "replan_period": 3.0, "no_progress_s": 30.0}}
+{"t": 1792518786.77, "event": "start", "state": "exploring", "pose": [0.002, -0.005, -0.0], "distance_m": 0.0}
+{"t": 1792518787.52, "event": "goal_sent", "state": "exploring", "pose": [0.004, -0.007, 0.004], "distance_m": 0.0, "goal": [-0.23, 0.17], "frontier": [-0.22, 0.2], "size_m": 0.8, "path_m": 0.33, "candidates": 9, "search_ms": 32.6}
+{"t": 1792518787.52, "event": "sample", "state": "exploring", "pose": [0.004, -0.007, 0.004], "distance_m": 0.0, "explored_m2": 9.4, "frontiers": 9, "battery_v": 7.060999870300293}
+{"t": 1792518790.48, "event": "goal_cancelled", "state": "exploring", "pose": [0.036, 0.003, 1.098], "distance_m": 0.03, "why": "battery low"}
+{"t": 1792518790.48, "event": "return_home", "state": "returning", "pose": [0.036, 0.003, 1.098], "distance_m": 0.03}
+{"t": 1792518791.19, "event": "goal_reached", "state": "returning", "pose": [0.036, 0.003, 1.098], "distance_m": 0.03, "goal": [0.0, -0.01], "kind": "home", "seconds": 0.7}
+{"t": 1792518791.2, "event": "saved", "state": "done", "pose": [0.036, 0.003, 1.098], "distance_m": 0.03, "path": "/home/ubuntu/maps/explore_2026-10-20_10-53-11"}
+{"t": 1792518791.2, "event": "done", "state": "done", "pose": [0.036, 0.003, 1.098], "distance_m": 0.03, "why": "back at the start", "stats": {"goals_sent": 2, "goals_reached": 1, "goals_failed": 0, "goals_explored": 0}, "explored_m2": 24.49, "minutes": 0.07}

@@ -1,0 +1,35 @@
+{"t": 1792523474.22, "event": "begin", "state": "idle", "pose": [0.011, -0.003, -0.001], "distance_m": 0.0, "home": [0.00886917114257818, -0.0042171478271486595], "params": {"robot_radius": 0.15, "min_frontier_m": 0.3, "size_weight": 0.5, "replan_period": 3.0, "no_progress_s": 30.0}}
+{"t": 1792523474.22, "event": "start", "state": "exploring", "pose": [0.011, -0.003, -0.001], "distance_m": 0.0}
+{"t": 1792523474.64, "event": "goal_sent", "state": "exploring", "pose": [0.007, -0.002, -0.003], "distance_m": 0.0, "goal": [-2.43, -0.33], "frontier": [-2.43, -0.28], "size_m": 0.4, "path_m": 2.57, "candidates": 5, "search_ms": 32.4}
+{"t": 1792523474.64, "event": "sample", "state": "exploring", "pose": [0.007, -0.002, -0.003], "distance_m": 0.0, "explored_m2": 14.51, "frontiers": 5, "battery_v": 7.85099983215332}
+{"t": 1792523477.66, "event": "frontier_explored", "state": "exploring", "pose": [0.019, 0.008, -1.321], "distance_m": 0.0, "goal": [-2.43, -0.33]}
+{"t": 1792523477.66, "event": "goal_cancelled", "state": "exploring", "pose": [0.019, 0.008, -1.321], "distance_m": 0.0, "why": "frontier explored"}
+{"t": 1792523477.66, "event": "goal_sent", "state": "exploring", "pose": [0.019, 0.008, -1.321], "distance_m": 0.0, "goal": [-0.88, -1.03], "frontier": [-1.04, -2.59], "size_m": 14.0, "path_m": 1.42, "candidates": 21, "search_ms": 55.3}
+{"t": 1792523479.6, "event": "sample", "state": "exploring", "pose": [0.008, -0.006, -2.849], "distance_m": 0.06, "explored_m2": 33.68, "frontiers": 21, "battery_v": 7.849999904632568}
+{"t": 1792523485.6, "event": "sample", "state": "exploring", "pose": [-0.854, -0.189, -2.418], "distance_m": 0.96, "explored_m2": 49.86, "frontiers": 37, "battery_v": 7.853000164031982}
+{"t": 1792523491.69, "event": "sample", "state": "exploring", "pose": [-1.017, -0.875, -1.339], "distance_m": 1.68, "explored_m2": 51.77, "frontiers": 28, "battery_v": 7.828999996185303}
+{"t": 1792523491.91, "event": "goal_reached", "state": "exploring", "pose": [-1.017, -0.875, -1.339], "distance_m": 1.68, "goal": [-0.88, -1.03], "kind": "frontier", "seconds": 14.2}
+{"t": 1792523492.69, "event": "goal_sent", "state": "exploring", "pose": [-1.01, -0.899, -1.281], "distance_m": 1.68, "goal": [-1.13, -1.88], "frontier": [-1.2, -3.01], "size_m": 10.05, "path_m": 1.04, "candidates": 27, "search_ms": 86.8}
+{"t": 1792523496.6, "event": "sample", "state": "exploring", "pose": [-0.948, -1.465, -1.544], "distance_m": 2.28, "explored_m2": 51.86, "frontiers": 27, "battery_v": 7.816999912261963}
+{"t": 1792523499.05, "event": "goal_reached", "state": "exploring", "pose": [-0.985, -1.716, -1.942], "distance_m": 2.53, "goal": [-1.13, -1.88], "kind": "frontier", "seconds": 6.4}
+{"t": 1792523499.7, "event": "goal_sent", "state": "exploring", "pose": [-0.998, -1.744, -1.996], "distance_m": 2.56, "goal": [0.57, -0.58], "frontier": [2.93, -2.2], "size_m": 28.35, "path_m": 2.64, "candidates": 26, "search_ms": 93.0}
+{"t": 1792523502.6, "event": "sample", "state": "exploring", "pose": [-0.985, -1.753, 3.023], "distance_m": 2.56, "explored_m2": 52.09, "frontiers": 26, "battery_v": 7.835999965667725}
+{"t": 1792523507.61, "event": "sample", "state": "exploring", "pose": [-0.931, -1.18, 1.432], "distance_m": 3.2, "explored_m2": 52.52, "frontiers": 24, "battery_v": 7.831999778747559}
+{"t": 1792523513.63, "event": "sample", "state": "exploring", "pose": [-0.858, -0.334, 0.836], "distance_m": 4.05, "explored_m2": 59.41, "frontiers": 2, "battery_v": 7.826000213623047}
+{"t": 1792523519.6, "event": "sample", "state": "exploring", "pose": [0.057, -0.165, -0.422], "distance_m": 5.04, "explored_m2": 61.06, "frontiers": 2, "battery_v": 7.813000202178955}
+{"t": 1792523522.08, "event": "goal_reached", "state": "exploring", "pose": [0.324, -0.355, -0.753], "distance_m": 5.37, "goal": [0.57, -0.58], "kind": "frontier", "seconds": 22.4}
+{"t": 1792523522.63, "event": "goal_sent", "state": "exploring", "pose": [0.376, -0.415, -0.84], "distance_m": 5.45, "goal": [-0.73, -1.58], "frontier": [0.29, -3.07], "size_m": 3.4, "path_m": 2.16, "candidates": 1, "search_ms": 26.4}
+{"t": 1792523524.61, "event": "sample", "state": "exploring", "pose": [0.402, -0.421, -1.382], "distance_m": 5.45, "explored_m2": 61.18, "frontiers": 1, "battery_v": 7.822000026702881}
+{"t": 1792523530.6, "event": "sample", "state": "exploring", "pose": [-0.135, -0.175, 2.814], "distance_m": 6.1, "explored_m2": 61.41, "frontiers": 1, "battery_v": 7.808000087738037}
+{"t": 1792523536.63, "event": "sample", "state": "exploring", "pose": [-0.891, -0.279, -2.266], "distance_m": 6.94, "explored_m2": 61.79, "frontiers": 1, "battery_v": 7.7789998054504395}
+{"t": 1792523542.6, "event": "sample", "state": "exploring", "pose": [-1.02, -1.167, -1.477], "distance_m": 7.85, "explored_m2": 61.93, "frontiers": 1, "battery_v": 7.789999961853027}
+{"t": 1792523544.57, "event": "goal_reached", "state": "exploring", "pose": [-0.999, -1.319, -1.351], "distance_m": 8.0, "goal": [-0.73, -1.58], "kind": "frontier", "seconds": 21.9}
+{"t": 1792523546.63, "event": "no_frontiers", "state": "exploring", "pose": [-0.973, -1.429, -1.199], "distance_m": 8.1}
+{"t": 1792523546.63, "event": "return_home", "state": "returning", "pose": [-0.973, -1.429, -1.199], "distance_m": 8.1}
+{"t": 1792523548.6, "event": "sample", "state": "returning", "pose": [-0.979, -1.435, -0.791], "distance_m": 8.1, "explored_m2": 61.94, "frontiers": 0, "battery_v": 7.810999870300293}
+{"t": 1792523553.61, "event": "sample", "state": "returning", "pose": [-0.962, -1.062, 1.567], "distance_m": 8.53, "explored_m2": 62.11, "frontiers": 0, "battery_v": 7.785999774932861}
+{"t": 1792523559.6, "event": "sample", "state": "returning", "pose": [-0.762, -0.244, 0.618], "distance_m": 9.41, "explored_m2": 63.75, "frontiers": 0, "battery_v": 7.797999858856201}
+{"t": 1792523563.46, "event": "goal_reached", "state": "returning", "pose": [-0.283, -0.066, 0.157], "distance_m": 9.93, "goal": [0.01, -0.0], "kind": "home", "seconds": 16.8}
+{"t": 1792523563.46, "event": "saved", "state": "done", "pose": [-0.283, -0.066, 0.157], "distance_m": 9.93, "path": "/home/ubuntu/maps/explore_2026-10-20_12-12-43"}
+{"t": 1792523563.47, "event": "done", "state": "done", "pose": [-0.283, -0.066, 0.157], "distance_m": 9.93, "why": "back at the start", "stats": {"goals_sent": 6, "goals_reached": 5, "goals_failed": 0, "goals_explored": 1}, "explored_m2": 63.79, "minutes": 1.49}
+{"t": 1792523578.47, "event": "stop", "state": "idle", "pose": [-0.164, -0.049, 0.148], "distance_m": 9.93}

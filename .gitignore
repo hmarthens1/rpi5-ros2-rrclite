@@ -15,3 +15,9 @@ __pycache__/
 
 # firmware build output
 Lab_03/firmware/build/
+
+# LaTeX build output
+*.aux
+*.log
+*.out
+.~lock.*#

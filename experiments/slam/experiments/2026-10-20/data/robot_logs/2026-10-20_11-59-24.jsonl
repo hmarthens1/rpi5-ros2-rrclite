@@ -1,0 +1,77 @@
+{"t": 1792522764.68, "event": "begin", "state": "idle", "pose": [0.004, 0.006, 0.006], "distance_m": 0.0, "home": [0.0004997253417968542, 0.0041046142578125], "params": {"robot_radius": 0.15, "min_frontier_m": 0.3, "size_weight": 0.5, "replan_period": 3.0, "no_progress_s": 30.0}}
+{"t": 1792522764.68, "event": "start", "state": "exploring", "pose": [0.004, 0.006, 0.006], "distance_m": 0.0}
+{"t": 1792522765.5, "event": "goal_sent", "state": "exploring", "pose": [0.001, 0.006, 0.005], "distance_m": 0.0, "goal": [-0.28, -0.08], "frontier": [-0.26, -0.08], "size_m": 0.8, "path_m": 0.34, "candidates": 13, "search_ms": 25.1}
+{"t": 1792522765.5, "event": "sample", "state": "exploring", "pose": [0.001, 0.006, 0.005], "distance_m": 0.0, "explored_m2": 8.02, "frontiers": 13, "battery_v": 8.022000312805176}
+{"t": 1792522770.47, "event": "sample", "state": "exploring", "pose": [-0.008, 0.019, -0.25], "distance_m": 0.0, "explored_m2": 11.26, "frontiers": 13, "battery_v": 8.015000343322754}
+{"t": 1792522775.51, "event": "sample", "state": "exploring", "pose": [-0.0, 0.016, -0.115], "distance_m": 0.0, "explored_m2": 12.31, "frontiers": 19, "battery_v": 8.01200008392334}
+{"t": 1792522781.47, "event": "sample", "state": "exploring", "pose": [-0.001, 0.023, -0.627], "distance_m": 0.0, "explored_m2": 12.65, "frontiers": 19, "battery_v": 8.012999534606934}
+{"t": 1792522783.51, "event": "frontier_explored", "state": "exploring", "pose": [0.014, 0.024, -2.025], "distance_m": 0.0, "goal": [-0.28, -0.08]}
+{"t": 1792522783.51, "event": "goal_cancelled", "state": "exploring", "pose": [0.014, 0.024, -2.025], "distance_m": 0.0, "why": "frontier explored"}
+{"t": 1792522783.51, "event": "goal_sent", "state": "exploring", "pose": [0.014, 0.024, -2.025], "distance_m": 0.0, "goal": [-0.03, 0.57], "frontier": [-0.02, 0.57], "size_m": 0.45, "path_m": 0.65, "candidates": 27, "search_ms": 43.9}
+{"t": 1792522787.5, "event": "sample", "state": "exploring", "pose": [-0.093, 0.076, 2.372], "distance_m": 0.12, "explored_m2": 30.67, "frontiers": 11, "battery_v": 8.015999794006348}
+{"t": 1792522792.47, "event": "sample", "state": "exploring", "pose": [-0.153, 0.157, 2.491], "distance_m": 0.2, "explored_m2": 32.82, "frontiers": 16, "battery_v": 8.003000259399414}
+{"t": 1792522793.52, "event": "frontier_explored", "state": "exploring", "pose": [-0.199, 0.18, 2.653], "distance_m": 0.27, "goal": [-0.03, 0.57]}
+{"t": 1792522793.52, "event": "goal_cancelled", "state": "exploring", "pose": [-0.199, 0.18, 2.653], "distance_m": 0.27, "why": "frontier explored"}
+{"t": 1792522793.52, "event": "goal_sent", "state": "exploring", "pose": [-0.199, 0.18, 2.653], "distance_m": 0.27, "goal": [-1.08, -0.03], "frontier": [-1.85, -0.49], "size_m": 1.7, "path_m": 0.98, "candidates": 16, "search_ms": 54.3}
+{"t": 1792522798.47, "event": "sample", "state": "exploring", "pose": [-0.708, 0.321, -2.711], "distance_m": 0.81, "explored_m2": 38.59, "frontiers": 18, "battery_v": 7.995999813079834}
+{"t": 1792522800.81, "event": "goal_reached", "state": "exploring", "pose": [-0.959, 0.199, -2.52], "distance_m": 1.09, "goal": [-1.08, -0.03], "kind": "frontier", "seconds": 7.3}
+{"t": 1792522801.54, "event": "goal_sent", "state": "exploring", "pose": [-0.98, 0.189, -2.493], "distance_m": 1.09, "goal": [1.77, 3.02], "frontier": [1.57, 3.21], "size_m": 18.75, "path_m": 4.41, "candidates": 16, "search_ms": 74.1}
+{"t": 1792522803.47, "event": "sample", "state": "exploring", "pose": [-0.995, 0.198, -1.739], "distance_m": 1.13, "explored_m2": 41.98, "frontiers": 16, "battery_v": 7.991000175476074}
+{"t": 1792522804.55, "event": "frontier_explored", "state": "exploring", "pose": [-1.001, 0.181, -0.923], "distance_m": 1.13, "goal": [1.77, 3.02]}
+{"t": 1792522804.55, "event": "goal_cancelled", "state": "exploring", "pose": [-1.001, 0.181, -0.923], "distance_m": 1.13, "why": "frontier explored"}
+{"t": 1792522804.55, "event": "goal_sent", "state": "exploring", "pose": [-1.001, 0.181, -0.923], "distance_m": 1.13, "goal": [-2.98, 3.07], "frontier": [-3.04, 2.98], "size_m": 7.0, "path_m": 5.03, "candidates": 10, "search_ms": 76.4}
+{"t": 1792522807.52, "event": "frontier_explored", "state": "exploring", "pose": [-0.832, 0.258, 0.515], "distance_m": 1.36, "goal": [-2.98, 3.07]}
+{"t": 1792522807.52, "event": "goal_cancelled", "state": "exploring", "pose": [-0.832, 0.258, 0.515], "distance_m": 1.36, "why": "frontier explored"}
+{"t": 1792522807.52, "event": "goal_sent", "state": "exploring", "pose": [-0.832, 0.258, 0.515], "distance_m": 1.36, "goal": [2.77, -1.53], "frontier": [2.76, -1.57], "size_m": 14.3, "path_m": 5.25, "candidates": 7, "search_ms": 53.7}
+{"t": 1792522808.47, "event": "sample", "state": "exploring", "pose": [-0.735, 0.301, 0.296], "distance_m": 1.46, "explored_m2": 43.38, "frontiers": 7, "battery_v": 7.997000217437744}
+{"t": 1792522813.47, "event": "sample", "state": "exploring", "pose": [-0.147, 0.155, -0.527], "distance_m": 2.09, "explored_m2": 44.05, "frontiers": 7, "battery_v": 7.992000102996826}
+{"t": 1792522819.47, "event": "sample", "state": "exploring", "pose": [-0.142, 0.136, 0.994], "distance_m": 2.09, "explored_m2": 44.28, "frontiers": 7, "battery_v": 8.001999855041504}
+{"t": 1792522824.47, "event": "sample", "state": "exploring", "pose": [-0.135, 0.144, 1.256], "distance_m": 2.09, "explored_m2": 44.31, "frontiers": 7, "battery_v": 8.008999824523926}
+{"t": 1792522830.52, "event": "sample", "state": "exploring", "pose": [-0.208, 0.16, -0.126], "distance_m": 2.15, "explored_m2": 44.42, "frontiers": 7, "battery_v": 7.995999813079834}
+{"t": 1792522836.47, "event": "sample", "state": "exploring", "pose": [-0.315, 0.145, -0.299], "distance_m": 2.97, "explored_m2": 44.45, "frontiers": 7, "battery_v": 8.003999710083008}
+{"t": 1792522841.52, "event": "sample", "state": "exploring", "pose": [0.223, -0.012, -0.118], "distance_m": 3.53, "explored_m2": 44.48, "frontiers": 7, "battery_v": 7.992000102996826}
+{"t": 1792522847.47, "event": "sample", "state": "exploring", "pose": [0.227, -0.013, 0.116], "distance_m": 3.53, "explored_m2": 45.1, "frontiers": 7, "battery_v": 8.005999565124512}
+{"t": 1792522852.0, "event": "goal_failed", "state": "exploring", "pose": [0.227, -0.013, 0.115], "distance_m": 3.53, "goal": [2.77, -1.53], "kind": "frontier", "why": "Nav2 aborted (status 6)"}
+{"t": 1792522852.52, "event": "goal_sent", "state": "exploring", "pose": [0.228, -0.015, 0.121], "distance_m": 3.53, "goal": [3.32, 2.37], "frontier": [3.32, 2.36], "size_m": 17.05, "path_m": 4.3, "candidates": 6, "search_ms": 50.9}
+{"t": 1792522852.52, "event": "sample", "state": "exploring", "pose": [0.228, -0.015, 0.121], "distance_m": 3.53, "explored_m2": 45.1, "frontiers": 6, "battery_v": 8.0}
+{"t": 1792522858.47, "event": "sample", "state": "exploring", "pose": [0.223, -0.015, 0.175], "distance_m": 3.53, "explored_m2": 45.1, "frontiers": 6, "battery_v": 7.995999813079834}
+{"t": 1792522864.47, "event": "sample", "state": "exploring", "pose": [0.231, -0.016, 0.988], "distance_m": 3.53, "explored_m2": 45.1, "frontiers": 6, "battery_v": 7.997000217437744}
+{"t": 1792522870.52, "event": "sample", "state": "exploring", "pose": [0.465, 0.054, 0.672], "distance_m": 3.78, "explored_m2": 45.23, "frontiers": 6, "battery_v": 7.98799991607666}
+{"t": 1792522876.47, "event": "sample", "state": "exploring", "pose": [0.468, 0.056, 1.915], "distance_m": 3.78, "explored_m2": 45.33, "frontiers": 6, "battery_v": 8.00100040435791}
+{"t": 1792522882.52, "event": "sample", "state": "exploring", "pose": [0.484, 0.057, 2.521], "distance_m": 3.78, "explored_m2": 45.33, "frontiers": 6, "battery_v": 8.00100040435791}
+{"t": 1792522884.87, "event": "goal_failed", "state": "exploring", "pose": [0.469, 0.072, -2.569], "distance_m": 3.82, "goal": [3.32, 2.37], "kind": "frontier", "why": "Nav2 aborted (status 6)"}
+{"t": 1792522885.52, "event": "goal_sent", "state": "exploring", "pose": [0.472, 0.075, -2.547], "distance_m": 3.82, "goal": [1.32, 0.87], "frontier": [1.32, 0.85], "size_m": 0.6, "path_m": 1.5, "candidates": 10, "search_ms": 48.8}
+{"t": 1792522887.47, "event": "sample", "state": "exploring", "pose": [0.472, 0.074, -2.55], "distance_m": 3.82, "explored_m2": 46.7, "frontiers": 10, "battery_v": 7.986999988555908}
+{"t": 1792522893.47, "event": "sample", "state": "exploring", "pose": [0.473, 0.06, 0.076], "distance_m": 3.85, "explored_m2": 46.85, "frontiers": 11, "battery_v": 8.003000259399414}
+{"t": 1792522898.49, "event": "sample", "state": "exploring", "pose": [0.689, 0.099, 0.242], "distance_m": 4.09, "explored_m2": 46.99, "frontiers": 4, "battery_v": 7.995999813079834}
+{"t": 1792522904.47, "event": "sample", "state": "exploring", "pose": [0.306, 0.002, 0.27], "distance_m": 4.48, "explored_m2": 46.99, "frontiers": 4, "battery_v": 7.991000175476074}
+{"t": 1792522910.47, "event": "sample", "state": "exploring", "pose": [0.456, 0.019, 1.254], "distance_m": 4.87, "explored_m2": 47.04, "frontiers": 4, "battery_v": 7.989999771118164}
+{"t": 1792522915.5, "event": "sample", "state": "exploring", "pose": [0.457, 0.018, 1.905], "distance_m": 4.9, "explored_m2": 47.04, "frontiers": 4, "battery_v": 7.99399995803833}
+{"t": 1792522917.85, "event": "goal_failed", "state": "exploring", "pose": [0.456, 0.019, 1.901], "distance_m": 4.9, "goal": [1.32, 0.87], "kind": "frontier", "why": "Nav2 aborted (status 6)"}
+{"t": 1792522918.49, "event": "goal_sent", "state": "exploring", "pose": [0.457, 0.018, 1.905], "distance_m": 4.9, "goal": [0.52, -0.03], "frontier": [2.79, -1.6], "size_m": 13.8, "path_m": 0.07, "candidates": 3, "search_ms": 18.7}
+{"t": 1792522918.55, "event": "goal_reached", "state": "exploring", "pose": [0.457, 0.018, 1.905], "distance_m": 4.9, "goal": [0.52, -0.03], "kind": "frontier", "seconds": 0.1}
+{"t": 1792522919.5, "event": "goal_sent", "state": "exploring", "pose": [0.457, 0.018, 1.903], "distance_m": 4.9, "goal": [0.87, 0.87], "frontier": [0.87, 0.87], "size_m": 0.55, "path_m": 1.2, "candidates": 2, "search_ms": 26.5}
+{"t": 1792522920.47, "event": "sample", "state": "exploring", "pose": [0.457, 0.017, 1.91], "distance_m": 4.9, "explored_m2": 47.04, "frontiers": 2, "battery_v": 7.999000072479248}
+{"t": 1792522926.5, "event": "sample", "state": "exploring", "pose": [0.462, 0.04, -2.542], "distance_m": 4.9, "explored_m2": 47.28, "frontiers": 2, "battery_v": 7.99399995803833}
+{"t": 1792522932.47, "event": "sample", "state": "exploring", "pose": [0.461, 0.039, -2.546], "distance_m": 4.9, "explored_m2": 47.28, "frontiers": 2, "battery_v": 7.993000030517578}
+{"t": 1792522937.47, "event": "sample", "state": "exploring", "pose": [0.447, 0.031, -0.765], "distance_m": 4.9, "explored_m2": 47.31, "frontiers": 8, "battery_v": 8.01200008392334}
+{"t": 1792522943.51, "event": "sample", "state": "exploring", "pose": [0.657, 0.072, 0.291], "distance_m": 5.11, "explored_m2": 47.36, "frontiers": 8, "battery_v": 7.9770002365112305}
+{"t": 1792522946.86, "event": "goal_failed", "state": "exploring", "pose": [0.659, 0.073, 0.284], "distance_m": 5.11, "goal": [0.87, 0.87], "kind": "frontier", "why": "Nav2 aborted (status 6)"}
+{"t": 1792522947.51, "event": "goal_sent", "state": "exploring", "pose": [0.657, 0.073, 0.292], "distance_m": 5.11, "goal": [-0.38, 1.22], "frontier": [2.85, 3.69], "size_m": 30.15, "path_m": 2.11, "candidates": 7, "search_ms": 36.7}
+{"t": 1792522948.47, "event": "sample", "state": "exploring", "pose": [0.657, 0.072, 0.291], "distance_m": 5.11, "explored_m2": 47.36, "frontiers": 7, "battery_v": 7.985000133514404}
+{"t": 1792522953.47, "event": "sample", "state": "exploring", "pose": [0.498, 0.07, -3.095], "distance_m": 5.33, "explored_m2": 49.51, "frontiers": 7, "battery_v": 7.997000217437744}
+{"t": 1792522958.47, "event": "sample", "state": "exploring", "pose": [-0.144, 0.098, 2.98], "distance_m": 5.98, "explored_m2": 49.51, "frontiers": 7, "battery_v": 7.982999801635742}
+{"t": 1792522964.47, "event": "sample", "state": "exploring", "pose": [-0.806, 0.569, 1.763], "distance_m": 6.82, "explored_m2": 54.07, "frontiers": 7, "battery_v": 7.966000080108643}
+{"t": 1792522968.28, "event": "goal_reached", "state": "exploring", "pose": [-0.703, 0.944, 1.006], "distance_m": 7.22, "goal": [-0.38, 1.22], "kind": "frontier", "seconds": 20.8}
+{"t": 1792522969.57, "event": "goal_sent", "state": "exploring", "pose": [-0.678, 0.975, 0.922], "distance_m": 7.25, "goal": [-2.03, -1.93], "frontier": [-2.01, -1.95], "size_m": 12.0, "path_m": 3.55, "candidates": 32, "search_ms": 96.2}
+{"t": 1792522970.47, "event": "sample", "state": "exploring", "pose": [-0.677, 0.974, 0.922], "distance_m": 7.25, "explored_m2": 61.36, "frontiers": 32, "battery_v": 7.974999904632568}
+{"t": 1792522976.49, "event": "frontier_explored", "state": "exploring", "pose": [-0.754, 0.668, -1.749], "distance_m": 7.57, "goal": [-2.03, -1.93]}
+{"t": 1792522976.49, "event": "goal_cancelled", "state": "exploring", "pose": [-0.754, 0.668, -1.749], "distance_m": 7.57, "why": "frontier explored"}
+{"t": 1792522976.49, "event": "sample", "state": "exploring", "pose": [-0.754, 0.668, -1.749], "distance_m": 7.57, "explored_m2": 62.36, "frontiers": 0, "battery_v": 7.960999965667725}
+{"t": 1792522978.5, "event": "no_frontiers", "state": "exploring", "pose": [-0.758, 0.652, -1.542], "distance_m": 7.57}
+{"t": 1792522978.5, "event": "return_home", "state": "returning", "pose": [-0.758, 0.652, -1.542], "distance_m": 7.57}
+{"t": 1792522982.47, "event": "sample", "state": "returning", "pose": [-0.562, 0.339, -0.683], "distance_m": 7.98, "explored_m2": 62.81, "frontiers": 0, "battery_v": 7.960999965667725}
+{"t": 1792522985.84, "event": "goal_reached", "state": "returning", "pose": [-0.19, 0.044, -0.531], "distance_m": 8.46, "goal": [0.0, 0.0], "kind": "home", "seconds": 7.3}
+{"t": 1792522985.84, "event": "saved", "state": "done", "pose": [-0.19, 0.044, -0.531], "distance_m": 8.46, "path": "/home/ubuntu/maps/explore_2026-10-20_12-03-05"}
+{"t": 1792522985.85, "event": "done", "state": "done", "pose": [-0.19, 0.044, -0.531], "distance_m": 8.46, "why": "back at the start", "stats": {"goals_sent": 13, "goals_reached": 4, "goals_failed": 4, "goals_explored": 5}, "explored_m2": 62.81, "minutes": 3.69}
+{"t": 1792523002.43, "event": "stop", "state": "idle", "pose": [-0.18, 0.035, -0.609], "distance_m": 8.46}

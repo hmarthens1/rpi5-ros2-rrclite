@@ -1,0 +1,30 @@
+{
+  "duration_min": 12.55,
+  "explored_m2_final": 47.29,
+  "map_free_m2": 37.5,
+  "map_occupied_m2": 9.8,
+  "map_size_m": [
+    10.95,
+    13.15
+  ],
+  "distance_logged_m": 74.8,
+  "path_length_m": 74.0,
+  "goals_sent": 30,
+  "frontiers_reached": 24,
+  "frontiers_seen_on_the_way": 5,
+  "goals_failed": 1,
+  "failures": [
+    "timeout after 156 s"
+  ],
+  "operator_pauses": 0,
+  "returned_home": true,
+  "end_reason": "back at the start",
+  "search_ms_mean": 49.8,
+  "search_ms_max": 58.5,
+  "candidates_mean": 11.1,
+  "battery_v": [
+    7.4029998779296875,
+    7.078000068664551
+  ],
+  "area_rate_m2_per_min": 3.77
+}
